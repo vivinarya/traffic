@@ -1,0 +1,142 @@
+{
+  "version": "2.0",
+  "resolution": [
+    1360,
+    764
+  ],
+  "pixels_per_meter": 13.6,
+  "lanes": [
+    {
+      "lane_id": "North_L1",
+      "polygon": [
+        [
+          620,
+          0
+        ],
+        [
+          680,
+          0
+        ],
+        [
+          680,
+          302
+        ],
+        [
+          620,
+          302
+        ]
+      ],
+      "stopline": [
+        [
+          620,
+          302
+        ],
+        [
+          680,
+          302
+        ]
+      ],
+      "direction": "Southbound",
+      "approach": "North"
+    },
+    {
+      "lane_id": "South_L1",
+      "polygon": [
+        [
+          680,
+          462
+        ],
+        [
+          740,
+          462
+        ],
+        [
+          740,
+          764
+        ],
+        [
+          680,
+          764
+        ]
+      ],
+      "stopline": [
+        [
+          680,
+          462
+        ],
+        [
+          740,
+          462
+        ]
+      ],
+      "direction": "Northbound",
+      "approach": "South"
+    },
+    {
+      "lane_id": "East_L1",
+      "polygon": [
+        [
+          760,
+          322
+        ],
+        [
+          1360,
+          322
+        ],
+        [
+          1360,
+          382
+        ],
+        [
+          760,
+          382
+        ]
+      ],
+      "stopline": [
+        [
+          760,
+          322
+        ],
+        [
+          760,
+          382
+        ]
+      ],
+      "direction": "Westbound",
+      "approach": "East"
+    },
+    {
+      "lane_id": "West_L1",
+      "polygon": [
+        [
+          0,
+          382
+        ],
+        [
+          600,
+          382
+        ],
+        [
+          600,
+          442
+        ],
+        [
+          0,
+          442
+        ]
+      ],
+      "stopline": [
+        [
+          0,
+          382
+        ],
+        [
+          600,
+          382
+        ]
+      ],
+      "direction": "Eastbound",
+      "approach": "West"
+    }
+  ]
+}

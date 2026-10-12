@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# C extensions & debug symbols
+*.so
+*.dylib
+*.dll
+*.pdb
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Machine learning datasets and training caches
+datasets/
+runs/
+*.engine
+weights/edgeflow_run/
+
+# Test output databases and generated media
+tests/test_telemetry.db
+tests/annotated_*.mp4
+*.mp4
+*.avi
+*.mkv
+
+# SQLite databases & runtime logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Windows / OS metadata
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.exe
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Pytest / coverage cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model weights and exports (ignore all, keep only edgeflow_yolov8n.pt)
+*.onnx
+**/*.onnx
+*.pt
+**/*.pt
+!weights/edgeflow_yolov8n.pt
