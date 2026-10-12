@@ -4,11 +4,15 @@ __pycache__/
 *$py.class
 *.pyd
 
-# C extensions & debug symbols
+# C extensions, device drivers & debug symbols
 *.so
 *.dylib
 *.dll
 *.pdb
+*.sys
+*.inf
+*.cat
+ch340_driver/
 
 # Virtual environment
 .venv/
